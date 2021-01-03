@@ -119,7 +119,7 @@ The 1980s saw an explosion of home computers, game consoles and arcade machines.
 
 In 1980, the Commodore VIC-20, the Acorn Atom, the Tandy Color Computer (Coco), and the Sinclair ZX80 were introduced.
 
-The Mister project implements all of these. The Ulx3s board has an implementation of the VIC-20 that uses an OSD to run software. It has an implementation of the Acorn atom that runs software from an SD card, and the start of a ZX80 implementation.
+The Mister project implements all of these. The Ulx3s board has an implementation of the VIC-20 that uses an OSD to run software. It has an implementation of the Acorn Atom that runs software from an SD card, and the start of a ZX80 implementation.
 
 1981 saw the successor of the Acorn Atom: the BBC Micro. The Ulx3s version of the BBC micro runs software from an SD card, but only has VGA, not HDMI output.
 
