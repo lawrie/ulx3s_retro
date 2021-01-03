@@ -121,6 +121,8 @@ In 1980, the Commodore VIC-20, the Acorn Atom, the Tandy Color Computer (Coco), 
 
 The Mister project implements all of these. The Ulx3s board has an implementation of the VIC-20 that uses an OSD to run software. It has an implementation of the Acorn Atom that runs software from an SD card, and the start of a ZX80 implementation.
 
+The Video Genie system, called the Dick Smith System 80 in Australia was introduced in 1980 and is practically a clone of the TRS 80 Mode 1. The Ulx3s TRS 80 implementation supports this variant.
+
 1981 saw the successor of the Acorn Atom: the BBC Micro. The Ulx3s version of the BBC micro runs software from an SD card, but only has VGA, not HDMI output.
 
 1981 also saw the emergence of the TI-99/4A, and the ZX 81. The Ulx3s board has an excellent implementation of the TI-99/4A that includes an OSD. There is also an implemention of the ill-fated TI-99/2 computer with its Hexbus interface, on the Ulx3s.
