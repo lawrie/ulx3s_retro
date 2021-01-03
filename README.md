@@ -137,6 +137,8 @@ More second generation games consoles also came out in 1982, including the Colec
 
 The Croatian Galaksija kit computer came out in 1983, and is implemented on the Ulx3s board.
 
+1983 saw the introduction of the MSX standard. MSX machines were mainly produced by the Japanese. There is an MSX implementation with software loading via the OSD on the Ulx3s board.
+
 Nintendo introduced the Famicom games console in 1983, and it was renamed to the Nintendo Entertainment System (NES) in North America and came out in 1985. There is an excellent implementation of the NES on the Ulx3s, which includes an OSD and supports most cartridges using a large range of mappers.
 
 In 1984, Apple introduced the Macintosh 128k using a Motorola 68000 chip, followed by the 512K and the Mac Plus in the following years. There is an implementation of the Mac Plus on the Ulx3s board, which has PS/2 mouse support and emulates floppy disks using an OSD.
@@ -178,3 +180,17 @@ Risc-V is very popular on open source FPGAs and there are many implementations o
 There are two implementation of Risc-V Linux on the Ulx3s board: LiteX VexRiscv written in migen and SpinalHDL, and SaxonSoc, written entirely in SpinalHDL.
 
 Several games for the Ulx3s boards have been written in C and run on a Riisc-V SoC.
+
+## Missing from the Ulx3s board
+
+Significant 8-bit computers missing from the Ulx3s board and the Atari 8-bit computers, the Tandy Color Computer and the Amstrad CPC.
+
+A significant missing 16-bit computer is the Atari ST.
+
+Most of the 16-bit games consoles and lots of arcade machines are still to do.
+
+The Mister project has about 5 Russian computers of which the BK011M is probably the most significant.
+
+It has a couple of Japanese computers of which the Sharp X68000 is probably the most significant.
+
+It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW, and the Sam Coupe (ZX Spectrum compatible successor). Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
