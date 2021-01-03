@@ -187,10 +187,10 @@ Significant 8-bit computers missing from the Ulx3s board and the Atari 8-bit com
 
 A significant missing 16-bit computer is the Atari ST.
 
-Most of the 16-bit games consoles and lots of arcade machines are still to do.
+Most of the 16-bit games consoles, several portable games consoles, including the later Gameboy versions, such as the Gameboy Advance, and lots of arcade machines are still to do.
 
 The Mister project has about 5 Russian computers of which the BK011M is probably the most significant.
 
 It has a couple of Japanese computers of which the Sharp X68000 is probably the most significant.
 
-It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW, and the Sam Coupe (ZX Spectrum compatible successor). Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
+It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW,the Sam Coupe (ZX Spectrum compatible successor), and the Acorn archimeded, which used an Arm processor. Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
