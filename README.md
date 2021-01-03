@@ -76,13 +76,13 @@ The 1950s saw the creation of many machines based on vacuum tubes and the emerge
 
 The 1960s saw the emergence of mainframe and mid-range computers using transistors and of mini-computers using TTL logic. IBM's most successful range of machines was the System/360. There is a VHDL implementation of the System 360 Model 50, but this is not yet on open source hardware. 
 
-The dominant mini-computer supplier was Digital Equipment. Their first machine was the PDP-1, and the Mister project includes a recreation of this.
+The dominant mini-computer supplier was Digital Equipment Corporation (DEC). Their first machine was the PDP-1, and the Mister project includes a recreation of this.
 
 The most popular mini-computer was the PDP-11 and there are recreations of this. For example, the Mister project includes a recreation of the Russian BK0011M machine, which uses a clone of the PDP-11 CPU.
 
 In 1969, the Unix operating system was started, running on a PDP-11.
 
-### the 1970s
+### The 1970s
 
 The first games consoles appeared in the early to mid 1970s, and mainly implemented variants of Pong. Many of these used the AY-3-8500 chip. The Mister project includes a recreation of this chip and there is the start of a port of this to the Ulx3s board. It is written in Verilog.
 
