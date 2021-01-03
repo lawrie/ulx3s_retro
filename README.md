@@ -96,7 +96,7 @@ The next year, 1976, Steve Jobs and Steve Wozniak formed Apple Computer, and pro
 
 Another 1976 kit computer was the Cosmac Elf. This uses the RCA 1802 chip. There is a SpinalHDL implementation of this on the Ulx3s board.
 
-1977 was the year when the first fully assembled home computers appeared: the Apple 2, the Commodore Pet and the TRS 80 Model 1. There is a Verilog implementation of the TRS 80 on the Ulx3s board, which includes an OSD from which games and other software can be run. There is also an implementation of the Apple 2 on the Ulx3s board. written in Verilog and VHDL, which currently only compiles using the Lattice Diamond proprietary software.
+1977 was the year when the first fully assembled home computers appeared: the Apple 2, the Commodore Pet and the TRS 80 Model 1. There is a Verilog implementation of the TRS 80 on the Ulx3s board, which includes an OSD from which games and other software can be run. There is also an implementation of the Apple 2 on the Ulx3s board, written in Verilog and VHDL, which currently only compiles using the Lattice Diamond proprietary software.
 
 The Mister project includes all three of these computers, but there is currently no implementation of the Commodore Pet on the Ulx3s.
 
