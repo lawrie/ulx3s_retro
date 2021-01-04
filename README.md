@@ -110,16 +110,15 @@ Another 1976 kit computer was the [Cosmac Elf](https://en.wikipedia.org/wiki/COS
 
 The Mister project includes all three of these computers, but there is currently no implementation of the Commodore Pet on the Ulx3s.
 
-Also in 1976, the most successful of the second generation of games consoles was produced: the Atari 2600. The Mister project has an implementation of this, and there is an [open source version](https://github.com/lawrie/atari_2600) on the TinyFPGA BX board, but not yet on the Ulx3s board.
+Also in 1976, the most successful of the second generation of games consoles was produced: the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). The Mister project has an implementation of this, and there is an [open source version](https://github.com/lawrie/atari_2600) on the TinyFPGA BX board, but not yet on the Ulx3s board.
 
-In 1979, Atari launched their range of 8-bit home computers. The Mister project includes an implementation of these, but not the Ulx3s.
+In 1979, Atari launched their range of [8-bit home computers](https://en.wikipedia.org/wiki/Atari_8-bit_family). The Mister project includes an implementation of these, but not the Ulx3s.
 
-The first of the Texas Instruments home computers based on the TMS9900 chip, the TI-99/4, also appeared in 1979.
+The first of the Texas Instruments home computers based on the [TMS9900](https://en.wikipedia.org/wiki/Texas_Instruments_TMS9900) chip, the TI-99/4, also appeared in 1979.
 
-That year also saw the Mattel Intellivision games console, which was a rival to the Atari 2600, and used the General Instruments CP1610 chip, which was based on the PDP-11.
-There is an unofficial Mister version of this.
+That year also saw the [Mattel Intellivision](https://en.wikipedia.org/wiki/Intellivision) games console, which was a rival to the Atari 2600, and used the General Instruments CP1610 chip, which was based on the PDP-11. There is an unofficial Mister version of this.
 
-Unix was ported to other machines in the 1970s and there is a version of the Cortex project on the Ulx3s board that implements a version of V6 Unix on a TMS9900 chip, a machine that never existed.
+Unix was ported to other machines in the 1970s and there is a version of the [Cortex](https://gitlab.com/pnru/cortex) project on the Ulx3s board that implements a version of V6 Unix on a TMS9900 chip, a machine that never existed.
 
 The late 1970s also saw the start of the microprocessor based arcade machines.
 
@@ -139,17 +138,17 @@ The [Video Genie](https://en.wikipedia.org/wiki/Video_Genie) system, called the 
 
 MSDOS and the IBM PC were introduced in 1981. The Ulx3s board has the [Next186](https://github.com/emard/Next186) impolementation of MSDOS and FreeDOS, that came be used to play MSDOS games. Mister has the more powerful [ao486](https://github.com/MiSTer-devel/ao486_MiSTer).
 
-The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) (C64) came out in 1982 and was the most successful home computer ever with over 17 million sold. It had the biggest games library of any computer. The Ulx3s board has an implementation of the [C64](https://github.com/emard/ulx3s_c64) that is written in VHDL and Verilog and compiled using the GHDL Yosys plugin. It has an OSD and sound via the famous SID chip.
+The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) (C64) came out in 1982 and was the most successful home computer ever with over 17 million sold. It had the biggest games library of any computer. The Ulx3s board has an implementation of the [C64](https://github.com/emard/ulx3s_c64) that is written in VHDL and Verilog and compiled using the GHDL Yosys plugin. It has an OSD and sound via the famous [SID chip](https://en.wikipedia.org/wiki/MOS_Technology_6581).
 
-1982 was also the year of the Jupiter Ace home computer that ran Forth rather than Basic, and the Sinclair ZX Spectrum. There is a version of the Jupiter Ace on the Ulx3s board, but it does not support software loading. There is a version of the Speccie, that includes an OSD and software loading.
+1982 was also the year of the [Jupiter Ace](https://en.wikipedia.org/wiki/Jupiter_Ace) home computer that ran Forth rather than Basic, and the [Sinclair ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum). There is a version of the [Jupiter Ace](https://github.com/lawrie/jupiter_ace) on the Ulx3s board, but it does not support software loading. There is a version of the [Speccy](https://github.com/lawrie/ulx3s_zx_spectrum), that includes an OSD and software loading.
 
-More second generation games consoles also came out in 1982, including the ColecoVision, which has an implementation on the Ulx3s board with software loading via an OSD. The practically identical Sega SG 1000 games console came out the next year, and is again on the Ulx3s board.
+More second generation games consoles also came out in 1982, including the [ColecoVision](https://en.wikipedia.org/wiki/ColecoVision), which has an [implementation on the Ulx3s board](https://github.com/lawrie/ulx3s_colecovision) with software loading via an OSD. The practically identical [Sega SG 1000](https://en.wikipedia.org/wiki/SG-1000) games console came out the next year, and is [again on the Ulx3s board](https://github.com/lawrie/ulx3s_sg_1000).
 
-The Croatian Galaksija kit computer came out in 1983, and is implemented on the Ulx3s board.
+The Croatian [Galaksija](https://en.wikipedia.org/wiki/Galaksija_(computer)) kit computer came out in 1983, and is [implemented on the Ulx3s board](https://github.com/emard/galaksija).
 
-1983 saw the introduction of the MSX standard. MSX machines were mainly produced by the Japanese. There is an MSX implementation with software loading via the OSD on the Ulx3s board.
+1983 saw the introduction of the [MSX standard](https://en.wikipedia.org/wiki/MSX). MSX machines were mainly produced by the Japanese. There is an [MSX implementation](https://github.com/lawrie/ulx3s_msx) with software loading via the OSD on the Ulx3s board.
 
-Nintendo introduced the Famicom games console in 1983, and it was renamed to the Nintendo Entertainment System (NES) in North America and came out in 1985. There is an excellent implementation of the NES on the Ulx3s, which includes an OSD and supports most cartridges using a large range of mappers.
+Nintendo introduced the Famicom games console in 1983, and it was renamed to the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) (NES) in North America and came out in 1985. There is an [excellent implementation of the NES](https://github.com/emard/nes_ecp5) on the Ulx3s, which includes an OSD and supports most cartridges using a large range of mappers.
 
 In 1984, Apple introduced the Macintosh 128k using a Motorola 68000 chip, followed by the 512K and the Mac Plus in the following years. There is an implementation of the Mac Plus on the Ulx3s board, which has PS/2 mouse support and emulates floppy disks using an OSD.
 
