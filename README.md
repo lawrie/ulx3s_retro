@@ -100,7 +100,7 @@ The first microprocessor was the Intel 4004 4-bit chip, and this was soon follow
 
 The CP/M operating system for the Intel 8080 appeared in 1974. The Ulx3s board has an [implementation of this](https://github.com/lawrie/ulx3s_cpm_z80) for a Z80 chip.
 
-The first home computer kits were based on the 8080, the most famous successful being the [Altair 8800](https://en.wikipedia.org/wiki/Altair_8800) which appeared in January 1975. There is a recreation of the [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister) including an emulation ot its fromt panel in the Mister project. There is a simpler version of this without the front panel on the Ulx3s board. The [Ulx3s version](https://github.com/ulx3s/fpga-odysseus/tree/master/tutorials/07-Computer) is entirely in Verilog.
+The first home computer kits were based on the 8080, the most famous successful being the [Altair 8800](https://en.wikipedia.org/wiki/Altair_8800) which appeared in January 1975. There is a recreation of the [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister) including an emulation ot its front panel in the Mister project. There is a simpler version of this without the front panel on the Ulx3s board. The [Ulx3s version](https://github.com/ulx3s/fpga-odysseus/tree/master/tutorials/07-Computer) is entirely in Verilog.
 
 The next year, 1976, Steve Jobs and Steve Wozniak formed Apple Computer, and produced the [Apple 1](https://en.wikipedia.org/wiki/Apple_I) kit computer. There is a version of the [Apple 1](https://github.com/lawrie/apple-one), written in Verilog, on several open source boards including the Ulx3s.
 
@@ -110,7 +110,7 @@ Another 1976 kit computer was the [Cosmac Elf](https://en.wikipedia.org/wiki/COS
 
 The Mister project includes all three of these computers, but there is currently no implementation of the Commodore Pet on the Ulx3s.
 
-Also in 1976, the most successful of the second generation of games consoles was produced: the Atari 2600. The Mister project has an implementation of this, and there is an open source version on the TinyFPGA BX board, but not yet on the Ulx3s board.
+Also in 1976, the most successful of the second generation of games consoles was produced: the Atari 2600. The Mister project has an implementation of this, and there is an [open source version](https://github.com/lawrie/atari_2600) on the TinyFPGA BX board, but not yet on the Ulx3s board.
 
 In 1979, Atari launched their range of 8-bit home computers. The Mister project includes an implementation of these, but not the Ulx3s.
 
@@ -127,19 +127,19 @@ The late 1970s also saw the start of the microprocessor based arcade machines.
 
 The 1980s saw an explosion of home computers, game consoles and arcade machines.
 
-In 1980, the Commodore VIC-20, the Acorn Atom, the Tandy Color Computer (Coco), and the Sinclair ZX80 were introduced.
+In 1980, the [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20), the [Acorn Atom,](https://en.wikipedia.org/wiki/Acorn_Atom) the Tandy Color Computer[https://en.wikipedia.org/wiki/TRS-80_Color_Computer) (Coco), and the [Sinclair ZX80](https://en.wikipedia.org/wiki/ZX80) were introduced.
 
-The Mister project implements all of these. The Ulx3s board has an implementation of the VIC-20 that uses an OSD to run software. It has an implementation of the Acorn Atom that runs software from an SD card, and the start of a ZX80 implementation.
+The Mister project implements all of these. The Ulx3s board has an implementation of the [VIC-20](https://github.com/lawrie/ulx3s_vic_20) that uses an OSD to run software. It has an implementation of the [Acorn Atom](https://github.com/lawrie/ulx3s_acorn_atom) that runs software from an SD card, and the start of a [ZX80](https://github.com/lawrie/ulx3s_zx81) implementation.
 
-The Video Genie system, called the Dick Smith System 80 in Australia, was introduced in 1980 and is practically a clone of the TRS 80 Model 1. The Ulx3s TRS 80 implementation supports this variant.
+The [Video Genie](https://en.wikipedia.org/wiki/Video_Genie) system, called the Dick Smith System 80 in Australia, was introduced in 1980 and is practically a clone of the TRS 80 Model 1. The Ulx3s TRS 80 implementation supports this variant.
 
-1981 saw the successor of the Acorn Atom: the BBC Micro. The Ulx3s version of the BBC micro runs software from an SD card, but only has VGA, not HDMI output.
+1981 saw the successor of the Acorn Atom: the [BBC Micro](https://en.wikipedia.org/wiki/BBC_Micro). The Ulx3s version of the [BBC micro](https://github.com/lawrie/ulx3s_bbc_micro) runs software from an SD card, but only has VGA, not HDMI output.
 
-1981 also saw the emergence of the TI-99/4A, and the ZX 81. The Ulx3s board has an excellent implementation of the TI-99/4A that includes an OSD. There is also an implemention of the ill-fated TI-99/2 computer with its Hexbus interface, on the Ulx3s.
+1981 also saw the emergence of the [TI-99/4A](https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A), and the [ZX 81](https://en.wikipedia.org/wiki/ZX81). The Ulx3s board has an excellent implementation of the [TI-99/4A](https://github.com/Speccery/icy99) that includes an OSD. There is also an implemention of the ill-fated [TI-99/2](https://gitlab.com/pnru/ti99) computer with its Hexbus interface, on the Ulx3s.
 
-MSDOS and the IBM PC were introduced in 1981. The Ulx3s board has the Next186 impolementation of MSDOS and FREE-DOS, that came be used to play MSDOS games.
+MSDOS and the IBM PC were introduced in 1981. The Ulx3s board has the [Next186](https://github.com/emard/Next186) impolementation of MSDOS and FreeDOS, that came be used to play MSDOS games. Mister has the more powerful [ao486](https://github.com/MiSTer-devel/ao486_MiSTer).
 
-The Commodore 64 (C64) came out in 1982 and was the most successful home computer ever with over 17 million sold. It had the biggest games library of any computer. The Ulx3s board has an implementation of the C64 that is written in VHDL and Verilog and compiled using the GHDL Yosys plugin. It has an OSD and sound via the famous SID chip.
+The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) (C64) came out in 1982 and was the most successful home computer ever with over 17 million sold. It had the biggest games library of any computer. The Ulx3s board has an implementation of the [C64](https://github.com/emard/ulx3s_c64) that is written in VHDL and Verilog and compiled using the GHDL Yosys plugin. It has an OSD and sound via the famous SID chip.
 
 1982 was also the year of the Jupiter Ace home computer that ran Forth rather than Basic, and the Sinclair ZX Spectrum. There is a version of the Jupiter Ace on the Ulx3s board, but it does not support software loading. There is a version of the Speccie, that includes an OSD and software loading.
 
