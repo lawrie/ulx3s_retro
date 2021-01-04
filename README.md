@@ -164,9 +164,9 @@ The [Sega Master System](https://en.wikipedia.org/wiki/Master_System) games cons
 
 In the late 1980s the first version of Niklaus Wirth's Oberon operating system was produced, which was a development system for his Oberon programming language. In 2013 , he invented a RISC chip to run this OS, and there is a version of this on the Ulx3s board that supports an SD card and PS/2 keyboard and mouse.
 
-Nintendo had produced the Game & Watch portable games console in 1980, but the first very successful portable games console was the Nintendo Gameboy, which came out in 1989. There is the start of Gameboy implementation, written in SpinalHDL, on the Ulx3s board.
+Nintendo had produced the Game & Watch portable games console in 1980, but the first very successful portable games console was the [Nintendo Game Boy](https://en.wikipedia.org/wiki/Game_Boy), which came out in 1989. There is the start of [Gameboy implementation](https://github.com/lawrie/slabboy), written in SpinalHDL, on the Ulx3s board.
 
-There are not currently many Arcade machine implementations on the Ulx3s board, but there is a version of Phoenix.
+There are not currently many Arcade machine implementations on the Ulx3s board, but there is a version of [Phoenix](https://github.com/emard/vhdl_phoenix).
 
 ### The 1990s
 
@@ -188,7 +188,7 @@ Risc-V is very popular on open source FPGAs and there are many implementations o
 
 There are two implementation of Risc-V Linux on the Ulx3s board: LiteX VexRiscv written in migen and SpinalHDL, and SaxonSoc, written entirely in SpinalHDL.
 
-Several games for the Ulx3s boards have been written in C and run on a Riisc-V SoC.
+Several games for the Ulx3s boards have been written in C and run on a Risc-V SoC, such as [Super Miyamoto Sprint](https://github.com/dan-rodrigues/super-miyamoto-sprint).
 
 ## Missing from the Ulx3s board
 
