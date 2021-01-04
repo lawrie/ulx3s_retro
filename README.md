@@ -20,7 +20,7 @@ At the lowest level FPGAs do not match the exact transistors and logic gates of 
 
 ## Open Source FPGAs
 
-FPGA boards can be open source is a number of ways. The board itself can be open source hardware, and the tools that convert the HDL to a bitstream can be open source software. The only thing that cannot currently be open source is the FPGA chip itself.
+FPGA boards can be open source in a number of ways. The board itself can be open source hardware, and the tools that convert the HDL to a bitstream can be open source software. The only thing that cannot currently be open source is the FPGA chip itself.
 
 Until fairly recently, all software that converted HDL to the bistream for an FPGA was proprietary commercial software owned, licensed and sold by the FPGA chip vendor.
 
