@@ -203,3 +203,8 @@ The Mister project has about 5 Russian computers of which the BK011M is probably
 It has a couple of Japanese computers of which the Sharp X68000 is probably the most significant.
 
 It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW,the Sam Coupe (ZX Spectrum compatible successor), and the Acorn Archimedes, which used an Arm processor. Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
+
+## Pre-built bitstreams
+
+There are lots of pre-built bitstreams for the Ulx3s retro computers mentioned above in the [ulx3s_bitstreams](https://github.com/lawrie/ulx3s_bit_streams) repository.
+
