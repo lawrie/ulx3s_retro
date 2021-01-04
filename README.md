@@ -136,7 +136,7 @@ The [Video Genie](https://en.wikipedia.org/wiki/Video_Genie) system, called the 
 
 1981 also saw the emergence of the [TI-99/4A](https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A), and the [ZX 81](https://en.wikipedia.org/wiki/ZX81). The Ulx3s board has an excellent implementation of the [TI-99/4A](https://github.com/Speccery/icy99) that includes an OSD, and is described in this [video](https://www.youtube.com/watch?v=zdST3wz00KU). There is also an implemention of the ill-fated [TI-99/2](https://gitlab.com/pnru/ti99) computer with its Hexbus interface, on the Ulx3s.
 
-MSDOS and the IBM PC were introduced in 1981. The Ulx3s board has the [Next186](https://github.com/emard/Next186) impolementation of MSDOS and FreeDOS, that came be used to play MSDOS games. Mister has the more powerful [ao486](https://github.com/MiSTer-devel/ao486_MiSTer).
+MSDOS and the IBM PC were introduced in 1981. The Ulx3s board has the [Next186](https://github.com/emard/Next186) impolementation of MSDOS and FreeDOS, that came be used to play MSDOS games. Mister has the more powerful [ao486](https://github.com/MiSTer-devel/ao486_MiSTer). Here is a [video](https://www.youtube.com/watch?v=K-dl4bQy3yw&t=29s) of some DOS games on the Ulx3s.
 
 The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) (C64) came out in 1982 and was the most successful home computer ever with over 17 million sold. It had the biggest games library of any computer. The Ulx3s board has an implementation of the [C64](https://github.com/emard/ulx3s_c64) that is written in VHDL and Verilog and compiled using the GHDL Yosys plugin. It has an OSD and sound via the famous [SID chip](https://en.wikipedia.org/wiki/MOS_Technology_6581).
 
@@ -148,7 +148,7 @@ The Croatian [Galaksija](https://en.wikipedia.org/wiki/Galaksija_(computer)) kit
 
 1983 saw the introduction of the [MSX standard](https://en.wikipedia.org/wiki/MSX). MSX machines were mainly produced by the Japanese. There is an [MSX implementation](https://github.com/lawrie/ulx3s_msx) with software loading via the OSD on the Ulx3s board.
 
-Nintendo introduced the Famicom games console in 1983, and it was renamed to the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) (NES) in North America and came out in 1985. There is an [excellent implementation of the NES](https://github.com/emard/nes_ecp5) on the Ulx3s, which includes an OSD and supports most cartridges using a large range of mappers.
+Nintendo introduced the Famicom games console in 1983, and it was renamed to the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) (NES) in North America and came out in 1985. There is an [excellent implementation of the NES](https://github.com/emard/nes_ecp5) on the Ulx3s, which includes an OSD and supports most cartridges using a large range of mappers. There is a [video](https://www.youtube.com/watch?v=EQ97hIMpufQ) of some NES games on the Ulx3s.
 
 In 1984, Apple introduced the [Macintosh 128K](https://en.wikipedia.org/wiki/Macintosh_128K) using a [Motorola 68000](https://en.wikipedia.org/wiki/Motorola_68000) chip, followed by the 512K and the [Mac Plus](https://en.wikipedia.org/wiki/Macintosh_Plus) in the following years. There is an implementation of the [Mac Plus](https://github.com/lawrie/ulx3s_mac128) on the Ulx3s board, which has PS/2 mouse support and emulates floppy disks using an OSD.
 
@@ -156,7 +156,7 @@ The end of 1984 saw the introduction of the [Sinclair QL](https://en.wikipedia.o
 
 In 1985, more machines based on the 68000 chip came out, including the [Atari ST](https://en.wikipedia.org/wiki/Atari_ST) and the [Amiga](https://en.wikipedia.org/wiki/Amiga). The MIST project name is formed from the MI of Amiga and ST, of the Atari ST, and both Mist and Mister have implementation of those.
 
-The Ulx3s board has a version off the [Minimig Amiga implementation](https://github.com/emard/Minimig_ECS) that needs to be built using Lattice Diamond. It has an OSD but accesses the SD card directly, rather than using the ESP32.
+The Ulx3s board has a version off the [Minimig Amiga implementation](https://github.com/emard/Minimig_ECS) that needs to be built using Lattice Diamond. It has an OSD but accesses the SD card directly, rather than using the ESP32. Here is a [video](https://www.youtube.com/watch?v=q0nysMydf4I) of some Amiga games on the Ulx3s.
 
 The Croatian [Orao](https://en.wikipedia.org/wiki/Orao_(computer)) computer was produced in 1985, and is [implemented on the Ulx3s board](https://github.com/emard/UK101onFPGA), with an OSD.
 
@@ -186,7 +186,7 @@ In 2010 the [Risc-V](https://en.wikipedia.org/wiki/RISC-V) Instruction Set archi
 
 Risc-V is very popular on open source FPGAs and there are many implementations of the 32-bit version of it on the Ulx3s.
 
-There are two implementation of Risc-V Linux on the Ulx3s board: [LiteX VexRiscv](https://github.com/litex-hub/linux-on-litex-vexriscv) written in migen and SpinalHDL, and [SaxonSoc](https://github.com/SpinalHDL/SaxonSoc/tree/dev-0.1/bsp/radiona/ulx3s/smp), written entirely in SpinalHDL.
+There are two implementation of Risc-V Linux on the Ulx3s board: [LiteX VexRiscv](https://github.com/litex-hub/linux-on-litex-vexriscv) written in migen and SpinalHDL, and [SaxonSoc](https://github.com/SpinalHDL/SaxonSoc/tree/dev-0.1/bsp/radiona/ulx3s/smp), written entirely in SpinalHDL. Here is a [video](https://www.youtube.com/watch?v=ch_RTDHCYmo&t=417s) of SaxonSoc SMP Linux on the Ulx3s board.
 
 Several games for the Ulx3s boards have been written in C and run on a Risc-V SoC, such as [Super Miyamoto Sprint](https://github.com/dan-rodrigues/super-miyamoto-sprint).
 
@@ -207,4 +207,6 @@ It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone),
 ## Pre-built bitstreams
 
 There are lots of pre-built bitstreams for the Ulx3s retro computers mentioned above in the [ulx3s_bitstreams](https://github.com/lawrie/ulx3s_bit_streams) repository.
+
+Here is a [video](https://www.youtube.com/watch?v=YE7pSuZiN9Y&t=6s) of some of the games on the Ulx3s board.
 
