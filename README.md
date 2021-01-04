@@ -150,9 +150,9 @@ The Croatian [Galaksija](https://en.wikipedia.org/wiki/Galaksija_(computer)) kit
 
 Nintendo introduced the Famicom games console in 1983, and it was renamed to the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) (NES) in North America and came out in 1985. There is an [excellent implementation of the NES](https://github.com/emard/nes_ecp5) on the Ulx3s, which includes an OSD and supports most cartridges using a large range of mappers.
 
-In 1984, Apple introduced the Macintosh 128k using a Motorola 68000 chip, followed by the 512K and the Mac Plus in the following years. There is an implementation of the Mac Plus on the Ulx3s board, which has PS/2 mouse support and emulates floppy disks using an OSD.
+In 1984, Apple introduced the [Macintosh 128K](https://en.wikipedia.org/wiki/Macintosh_128K) using a [Motorola 68000](https://en.wikipedia.org/wiki/Motorola_68000) chip, followed by the 512K and the [Mac Plus](https://en.wikipedia.org/wiki/Macintosh_Plus) in the following years. There is an implementation of the [Mac Plus](https://github.com/lawrie/ulx3s_mac128) on the Ulx3s board, which has PS/2 mouse support and emulates floppy disks using an OSD.
 
-The end of 1984 saw the introduction of the Sinclair QL, which used a 68008 chip. The Ulx3s has a version of the QL emulating microdrives using an OSD.
+The end of 1984 saw the introduction of the [Sinclair QL](https://en.wikipedia.org/wiki/Sinclair_QL), which used a 68008 chip. The Ulx3s has a [version of the QL](https://github.com/lawrie/ulx3s_ql) emulating microdrives using an OSD.
 
 In 1985, more machines based on the 68000 chip came out, including the Atari ST and the Amiga. The MIST project name is formed from the MI of Amiga and ST, of the Atari ST, and both Mist and Mister have implementation of those.
 
@@ -198,7 +198,7 @@ A significant missing 16-bit computer is the Atari ST.
 
 Most of the 16-bit games consoles, several portable games consoles, including the later Gameboy versions, such as the Gameboy Advance, and lots of arcade machines are still to do.
 
-The Mister project has about 5 Russian computers of which the BK011M is probably the most significant.
+The Mister project has about 5 Russian computers of which the BK0011M is probably the most significant.
 
 It has a couple of Japanese computers of which the Sharp X68000 is probably the most significant.
 
