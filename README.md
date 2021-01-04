@@ -118,7 +118,7 @@ The first of the Texas Instruments home computers based on the [TMS9900](https:/
 
 That year also saw the [Mattel Intellivision](https://en.wikipedia.org/wiki/Intellivision) games console, which was a rival to the Atari 2600, and used the General Instruments CP1610 chip, which was based on the PDP-11. There is an unofficial Mister version of this.
 
-Unix was ported to other machines in the 1970s and 1980s and there is a version of the [Cortex](https://gitlab.com/pnru/cortex) project on the Ulx3s board that implements a version of V6 Unix on a TMS9900 chip. This is a recreation of the [Powertran Cortex](http://www.powertrancortex.com/) machine that appeared in electronics today in 1982 and 1983. The original machine ran several operating systems, but not Unix.
+Unix was ported to other machines in the 1970s and 1980s and there is a version of the [Cortex](https://gitlab.com/pnru/cortex) project on the Ulx3s board that implements a version of V6 Unix on a TMS9900 chip. This is a recreation of the [Powertran Cortex](http://www.powertrancortex.com/) machine that appeared in Electronics Today in 1982 and 1983. The original machine ran several operating systems, but not Unix.
 
 The late 1970s also saw the start of the microprocessor based arcade machines.
 
