@@ -134,7 +134,7 @@ The [Video Genie](https://en.wikipedia.org/wiki/Video_Genie) system, called the 
 
 1981 saw the successor of the Acorn Atom: the [BBC Micro](https://en.wikipedia.org/wiki/BBC_Micro). The Ulx3s version of the [BBC micro](https://github.com/lawrie/ulx3s_bbc_micro) runs software from an SD card, but only has VGA, not HDMI output.
 
-1981 also saw the emergence of the [TI-99/4A](https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A), and the [ZX 81](https://en.wikipedia.org/wiki/ZX81). The Ulx3s board has an excellent implementation of the [TI-99/4A](https://github.com/Speccery/icy99) that includes an OSD. There is also an implemention of the ill-fated [TI-99/2](https://gitlab.com/pnru/ti99) computer with its Hexbus interface, on the Ulx3s.
+1981 also saw the emergence of the [TI-99/4A](https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A), and the [ZX 81](https://en.wikipedia.org/wiki/ZX81). The Ulx3s board has an excellent implementation of the [TI-99/4A](https://github.com/Speccery/icy99) that includes an OSD, and is described in this [video](https://www.youtube.com/watch?v=zdST3wz00KU). There is also an implemention of the ill-fated [TI-99/2](https://gitlab.com/pnru/ti99) computer with its Hexbus interface, on the Ulx3s.
 
 MSDOS and the IBM PC were introduced in 1981. The Ulx3s board has the [Next186](https://github.com/emard/Next186) impolementation of MSDOS and FreeDOS, that came be used to play MSDOS games. Mister has the more powerful [ao486](https://github.com/MiSTer-devel/ao486_MiSTer).
 
