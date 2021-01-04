@@ -26,6 +26,16 @@ Until fairly recently, all software that converted HDL to the bistream for an FP
 
 But starting from 2015, open source tool chains have been available to synthesize the HDL and produce FPGA bitstreams.
 
+The main open source tools for FPGAs are [Yosys](https://github.com/YosysHQ/yosys) for synthesis, [nextpnr](https://github.com/YosysHQ/nextpnr) for place-and-route and [GHDL](https://github.com/ghdl/ghdl) and its [Yosys plugin](https://github.com/ghdl/ghdl-yosys-plugin) to support VHDL.
+
+The main synthesis tools for Verilog are [iVerilog](https://github.com/steveicarus/iverilog) and [Verilator](https://github.com/verilator/verilator).
+
+Each chip supported by the open source tool chain has its own reverse engineering project that includes chip-specific tools. For the ECP5 board, this is [Project Trellis](https://github.com/YosysHQ/prjtrellis).
+
+There are nightly builds of all these tools at the [Open Tool Forge](https://github.com/open-tool-forge/fpga-toolchain) project.
+
+For The Ulx3s board, the main tool for uploading bitstreams is [fujprog](https://github.com/kost/fujprog).
+
 ## The Mist and Mister projects
 
 The [Mist](https://github.com/mist-devel/mist-board/wiki) and [Mister](https://github.com/MiSTer-devel/Main_MiSTer/wiki) projects have recreated the most old computers. The Mister project is under active development and currently has recreations of more than 40 old computers, nearly 20 games consoles, 80 or more arcade machines and a few other machines.
@@ -40,7 +50,7 @@ There are many other open source boards based on Lattice chips, but the Ulx3s is
 
 It also has buttons that can emulate joystick controls, and an OLED/LCD connector which is useful for diagnostics.
 
-In addition, it has an ESP32 co-processor that usually runs micropython. The ESP32 has Wifi and can be used to upload bitstreams to the FPGA and to do 2-way communication with the FPGA.
+In addition, it has an ESP32 co-processor that usually [runs micropython](https://github.com/emard/esp32ecp5). The ESP32 has Wifi and can be used to upload bitstreams to the FPGA and to do 2-way communication with the FPGA.
 
 Both the FPGA and the ESP32 have access to an SD card reader, so the FPGA can directly access an SD card, or the ESP32 can act as a file server for the FPGA. The latter is very useful for retro computing. Files on an SD card in on the ESP32 flash memory can be accessed from the FPGA using an on-screen display (OSD), which overlays a file browser on the HDMI (or VGA) output and allows the user to choose files, such as game roms to load.
 
@@ -56,7 +66,7 @@ Not all VHDL is supported however, and Yosys has better support for Verilog than
 
 Porting Mister projects to the Ulx3s and other open source boards can be difficult, as VHDL and SystemVerilog often has to be manually converted to something that Yosys supports, although there are some tools that can help with this conversion.
 
-The communication with the ESP32 is also a lot different to the way that the Mister system communicates with its Arm coprocessor running Linux, and that also requires some conversion.
+The communication with the ESP32 is also a lot different to the way that the Mister system communicates with its Arm coprocessor running Linux, and that also requires some conversion. Also the way HDMI output is generated is different.
 
 Some, but not all, of the retro-computing projects for the Ulx3s are Mist or Mister ports, but some are new projects and some use components from a variety of sources.
 
