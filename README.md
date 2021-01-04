@@ -127,7 +127,7 @@ The late 1970s also saw the start of the microprocessor based arcade machines.
 
 The 1980s saw an explosion of home computers, game consoles and arcade machines.
 
-In 1980, the [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20), the [Acorn Atom,](https://en.wikipedia.org/wiki/Acorn_Atom) the Tandy Color Computer[https://en.wikipedia.org/wiki/TRS-80_Color_Computer) (Coco), and the [Sinclair ZX80](https://en.wikipedia.org/wiki/ZX80) were introduced.
+In 1980, the [Commodore VIC-20](https://en.wikipedia.org/wiki/Commodore_VIC-20), the [Acorn Atom,](https://en.wikipedia.org/wiki/Acorn_Atom) the [Tandy Color Computer](https://en.wikipedia.org/wiki/TRS-80_Color_Computer) (Coco), and the [Sinclair ZX80](https://en.wikipedia.org/wiki/ZX80) were introduced.
 
 The Mister project implements all of these. The Ulx3s board has an implementation of the [VIC-20](https://github.com/lawrie/ulx3s_vic_20) that uses an OSD to run software. It has an implementation of the [Acorn Atom](https://github.com/lawrie/ulx3s_acorn_atom) that runs software from an SD card, and the start of a [ZX80](https://github.com/lawrie/ulx3s_zx81) implementation.
 
