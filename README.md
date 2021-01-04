@@ -162,17 +162,17 @@ The Croatian [Orao](https://en.wikipedia.org/wiki/Orao_(computer)) computer was 
 
 The [Sega Master System](https://en.wikipedia.org/wiki/Master_System) games console was released in 1985 in Japan and in the following years in the rest of the world. There is the [start of an implementation](https://github.com/lawrie/ulx3s_sms) of this on the Ulx3s board.
 
-In the late 1980s the first version of Niklaus Wirth's Oberon operating system was produced, which was a development system for his Oberon programming language. In 2013 , he invented a RISC chip to run this OS, and there is a version of this on the Ulx3s board that supports an SD card and PS/2 keyboard and mouse.
+In the late 1980s the first version of Niklaus Wirth's [Oberon operating system](https://en.wikipedia.org/wiki/Oberon_(operating_system)) was produced, which was a development system for his [Oberon programming language](https://en.wikipedia.org/wiki/Oberon_(programming_language)). In 2013 , he invented a RISC chip to run this OS, and there is a [version of this on the Ulx3s board](https://github.com/emard/oberon) that supports an SD card and PS/2 keyboard and mouse.
 
-Nintendo had produced the Game & Watch portable games console in 1980, but the first very successful portable games console was the [Nintendo Game Boy](https://en.wikipedia.org/wiki/Game_Boy), which came out in 1989. There is the start of [Gameboy implementation](https://github.com/lawrie/slabboy), written in SpinalHDL, on the Ulx3s board.
+Nintendo had produced the Game & Watch portable games console in 1980, but the first very successful portable games console was the [Nintendo Game Boy](https://en.wikipedia.org/wiki/Game_Boy), which came out in 1989. There is the start of [Game Boy implementation](https://github.com/lawrie/slabboy), written in SpinalHDL, on the Ulx3s board.
 
 There are not currently many Arcade machine implementations on the Ulx3s board, but there is a version of [Phoenix](https://github.com/emard/vhdl_phoenix).
 
 ### The 1990s
 
-In 1990, Sega introduced the Game Gear portable games console, which was pracically identical to the Sega Master System.
+In 1990, Sega introduced the [Game Gear](https://en.wikipedia.org/wiki/Game_Gear) portable games console, which was practically identical to the Sega Master System.
 
-In the 1990s, 16 and 32-bit games consoles were released. The Super Famicom was released in Japan in 1990 and as the Super Nintendo Entertainment System (SNES) in 1991 in North America. The Mister implementation of SNES, which is largely in VHDL has been ported to the Ulx3s board, using the GHDL Yosys plugin, and runs some, but not all, SNES games.
+In the 1990s, 16 and 32-bit games consoles were released. The Super Famicom was released in Japan in 1990 and as the [Super Nintendo Entertainment System](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) (SNES) in 1991 in North America. The Mister implementation of SNES, which is largely in VHDL has been [ported to the Ulx3s board](https://github.com/emard/SNES_MiSTer_ulx3s), using the GHDL Yosys plugin, and runs some, but not all, SNES games.
 
 Other fourth generation gamers consoles such as the Sega Genesis/MegaDrive, the Turbografx 16 and the NeoGeo are implemented by Mister but not yet on the Ulx3s board.
 
@@ -182,7 +182,7 @@ The Linux OS was introduced in 1991 and has been in continuual development since
 
 ### The 2010s
 
-In 2010 the Risc-V Instruction Set architecture (ISA) was introduced and has been in continual development since.
+In 2010 the [Risc-V](https://en.wikipedia.org/wiki/RISC-V) Instruction Set architecture (ISA) was introduced and has been in continual development since.
 
 Risc-V is very popular on open source FPGAs and there are many implementations of the 32-bit version of it on the Ulx3s.
 
