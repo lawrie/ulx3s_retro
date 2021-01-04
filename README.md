@@ -90,7 +90,7 @@ The dominant mini-computer supplier was Digital Equipment Corporation (DEC). The
 
 The most popular mini-computer was the PDP-11 and there are recreations of this. For example, the Mister project includes a recreation of the Russian [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer) machine, which uses a clone of the PDP-11 CPU.
 
-In 1969, development the Unix operating system was started, with the first releases in the early 70srunning on a PDP-11.
+In 1969, development the Unix operating system was started, with the first releases in the early 70s running on a PDP-11.
 
 ### The 1970s
 
@@ -102,11 +102,11 @@ The CP/M operating system for the Intel 8080 appeared in 1974. The Ulx3s board h
 
 The first home computer kits were based on the 8080, the most famous successful being the [Altair 8800](https://en.wikipedia.org/wiki/Altair_8800) which appeared in January 1975. There is a recreation of the [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister) including an emulation ot its fromt panel in the Mister project. There is a simpler version of this without the front panel on the Ulx3s board. The [Ulx3s version](https://github.com/ulx3s/fpga-odysseus/tree/master/tutorials/07-Computer) is entirely in Verilog.
 
-The next year, 1976, Steve Jobs and Steve Wozniak formed Apple Computer, and produced the Apple 1 kit computer. There is a version of the Apple 1, written in Verilog, on several open source boards including the Ulx3s.
+The next year, 1976, Steve Jobs and Steve Wozniak formed Apple Computer, and produced the [Apple 1](https://en.wikipedia.org/wiki/Apple_I) kit computer. There is a version of the [Apple 1](https://github.com/lawrie/apple-one), written in Verilog, on several open source boards including the Ulx3s.
 
-Another 1976 kit computer was the Cosmac Elf. This uses the RCA 1802 chip. There is a SpinalHDL implementation of this on the Ulx3s board.
+Another 1976 kit computer was the [Cosmac Elf](https://en.wikipedia.org/wiki/COSMAC_ELF). This uses the RCA 1802 chip. There is a [SpinalHDL implementation of this](https://github.com/lawrie/FPGACosmacELF) on the Ulx3s board.
 
-1977 was the year when the first fully assembled home computers appeared: the Apple 2, the Commodore Pet and the TRS 80 Model 1. There is a Verilog implementation of the TRS 80 on the Ulx3s board, which includes an OSD from which games and other software can be run. There is also an implementation of the Apple 2 on the Ulx3s board, written in Verilog and VHDL, which currently only compiles using the Lattice Diamond proprietary software.
+1977 was the year when the first fully assembled home computers appeared: the [Apple 2](https://en.wikipedia.org/wiki/Apple_II), the [Commodore Pet](https://en.wikipedia.org/wiki/Commodore_PET) and the [TRS 80 Model 1](https://en.wikipedia.org/wiki/TRS-80). There is a Verilog implementation of the [TRS 80](https://github.com/lawrie/ulx3s_trs_80) on the Ulx3s board, which includes an OSD from which games and other software can be run. There is also an implementation of the [Apple 2](https://github.com/emard/apple2fpga) on the Ulx3s board, written in Verilog and VHDL, which currently only compiles using the Lattice Diamond proprietary software.
 
 The Mister project includes all three of these computers, but there is currently no implementation of the Commodore Pet on the Ulx3s.
 
@@ -203,4 +203,4 @@ The Mister project has about 5 Russian computers of which the BK011M is probably
 
 It has a couple of Japanese computers of which the Sharp X68000 is probably the most significant.
 
-It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW,the Sam Coupe (ZX Spectrum compatible successor), and the Acorn archimeded, which used an Arm processor. Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
+It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW,the Sam Coupe (ZX Spectrum compatible successor), and the Acorn Archimedes, which used an Arm processor. Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
