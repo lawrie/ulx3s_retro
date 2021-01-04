@@ -186,7 +186,7 @@ In 2010 the [Risc-V](https://en.wikipedia.org/wiki/RISC-V) Instruction Set archi
 
 Risc-V is very popular on open source FPGAs and there are many implementations of the 32-bit version of it on the Ulx3s.
 
-There are two implementation of Risc-V Linux on the Ulx3s board: LiteX VexRiscv written in migen and SpinalHDL, and SaxonSoc, written entirely in SpinalHDL.
+There are two implementation of Risc-V Linux on the Ulx3s board: [LiteX VexRiscv](https://github.com/litex-hub/linux-on-litex-vexriscv) written in migen and SpinalHDL, and [SaxonSoc](https://github.com/SpinalHDL/SaxonSoc/tree/dev-0.1/bsp/radiona/ulx3s/smp), written entirely in SpinalHDL.
 
 Several games for the Ulx3s boards have been written in C and run on a Risc-V SoC, such as [Super Miyamoto Sprint](https://github.com/dan-rodrigues/super-miyamoto-sprint).
 
