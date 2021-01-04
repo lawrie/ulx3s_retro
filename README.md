@@ -154,13 +154,13 @@ In 1984, Apple introduced the [Macintosh 128K](https://en.wikipedia.org/wiki/Mac
 
 The end of 1984 saw the introduction of the [Sinclair QL](https://en.wikipedia.org/wiki/Sinclair_QL), which used a 68008 chip. The Ulx3s has a [version of the QL](https://github.com/lawrie/ulx3s_ql) emulating microdrives using an OSD.
 
-In 1985, more machines based on the 68000 chip came out, including the Atari ST and the Amiga. The MIST project name is formed from the MI of Amiga and ST, of the Atari ST, and both Mist and Mister have implementation of those.
+In 1985, more machines based on the 68000 chip came out, including the [Atari ST](https://en.wikipedia.org/wiki/Atari_ST) and the [Amiga](https://en.wikipedia.org/wiki/Amiga). The MIST project name is formed from the MI of Amiga and ST, of the Atari ST, and both Mist and Mister have implementation of those.
 
-The Ulx3s board has a version off the Minimig Amiga implementation that needs to be built using Lattice Diamond. It has an OSD but accesses the SD card directly, rather than using the ESP32.
+The Ulx3s board has a version off the [Minimig Amiga implementation](https://github.com/emard/Minimig_ECS) that needs to be built using Lattice Diamond. It has an OSD but accesses the SD card directly, rather than using the ESP32.
 
-The Croatian Orao computer was produced in 1985, and is implemented on the Ulx3s board, with an OSD.
+The Croatian [Orao](https://en.wikipedia.org/wiki/Orao_(computer)) computer was produced in 1985, and is [implemented on the Ulx3s board](https://github.com/emard/UK101onFPGA), with an OSD.
 
-The Sega Master System games console was released in 1985 in Japan and in the following years in the rest of the world. There is the start of an implementation of this on the Ulx3s board.
+The [Sega Master System](https://en.wikipedia.org/wiki/Master_System) games console was released in 1985 in Japan and in the following years in the rest of the world. There is the [start of an implementation](https://github.com/lawrie/ulx3s_sms) of this on the Ulx3s board.
 
 In the late 1980s the first version of Niklaus Wirth's Oberon operating system was produced, which was a development system for his Oberon programming language. In 2013 , he invented a RISC chip to run this OS, and there is a version of this on the Ulx3s board that supports an SD card and PS/2 keyboard and mouse.
 
