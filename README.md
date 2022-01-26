@@ -84,6 +84,8 @@ The 1950s saw the creation of many machines based on vacuum tubes and the emerge
 
 There is a Verilog version of the [IBM 650](https://www.allaboutcircuits.com/ip-cores/processor/i650/), which used vacuum tubes, and a VHDL implementation of the [IBM 1410](https://github.com/cube1us/IBM1410FPGA) which was one of the first transistor-based computers.
 
+There is also a Verilog simulation of the [IBM 704](https://github.com/rhobbie/Library704).
+
 ### The 1960s
 
 The 1960s saw the emergence of mainframe and mid-range computers using transistors and of mini-computers using TTL logic. IBM's most successful range of machines was the System/360. There is a [VHDL implementation of the System 360 Model 50](https://github.com/ibm2030/IBM2030), but this is not yet on open source hardware. 
