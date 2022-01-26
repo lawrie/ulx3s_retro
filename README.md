@@ -80,7 +80,9 @@ Stored program computing using digital logic arguably started with the [Manchest
 
 ### The 1950s
 
-The 1950s saw the creation of many machines based on vacuum tubes and the emergence of IBM as the major player. There are no current open source recreations of these machines.
+The 1950s saw the creation of many machines based on vacuum tubes and the emergence of IBM as the major player. 
+
+There is a Verilog version of the [IBM 650](https://www.allaboutcircuits.com/ip-cores/processor/i650/), which used vacuum tubes, and a VHDL implementation of the [IBM 1410](https://github.com/cube1us/IBM1410FPGA) which was one of the first transistor-based computers.
 
 ### The 1960s
 
