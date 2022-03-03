@@ -12,7 +12,7 @@ Avoiding lag between input and output devices can be important when playing fast
 
 ## Using FPGAs
 
-To recreate the digital logic of a machine using an FPGA, you need to code the logic in a Hardware Description Language (HDL). The two main hardware description languages are Verilog (and its more powerful SystemVerilog variant), and VHDL. However, you do not have to write directly in these languages, as you can use more powerful languages that generate HDL, such as [migen](https://m-labs.hk/gateware/migen/), [nmigen](https://github.com/nmigen/nmigen), [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL), Chisel and [Silice](https://github.com/sylefeb/Silice).
+To recreate the digital logic of a machine using an FPGA, you need to code the logic in a Hardware Description Language (HDL). The two main hardware description languages are Verilog (and its more powerful SystemVerilog variant), and VHDL. However, you do not have to write directly in these languages, as you can use more powerful languages that generate HDL, such as [migen](https://m-labs.hk/gateware/migen/), [Amaranth](https://github.com/amaranth-lang/amaranth) (previously called nMigen), [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL), Chisel and [Silice](https://github.com/sylefeb/Silice).
 
 Hardware Description Languages were originally designed to simulate digital logic and they can still be used for that purpose using open source tools such as iVerilog and Verilator. Nowadays however, there are also synthesis tools that convert the logic into bitstream files that can be uploaded to an FPGA and effectively turn the FPGA into a machine that executes the digital logic described by the HDL. The same HDL can also be used to create hard-wired chips such as [ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit)s.
 
@@ -32,13 +32,13 @@ The main synthesis tools for Verilog are [iVerilog](https://github.com/steveicar
 
 Each chip supported by the open source tool chain has its own reverse engineering project that includes chip-specific tools. For the ECP5 board, this is [Project Trellis](https://github.com/YosysHQ/prjtrellis).
 
-There are nightly builds of all these tools at the [Open Tool Forge](https://github.com/open-tool-forge/fpga-toolchain) project.
+There are nightly builds of all these tools at the [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) project.
 
 For The Ulx3s board, the main tool for uploading bitstreams is [fujprog](https://github.com/kost/fujprog).
 
 ## The Mist and Mister projects
 
-The [Mist](https://github.com/mist-devel/mist-board/wiki) and [Mister](https://github.com/MiSTer-devel/Main_MiSTer/wiki) projects have recreated the most old computers. The Mister project is under active development and currently has recreations of more than 40 old computers, nearly 20 games consoles, 80 or more arcade machines and a few other machines.
+The [Mist](https://github.com/mist-devel/mist-board/wiki) and [Mister](https://github.com/MiSTer-devel/Main_MiSTer/wiki) projects have recreated the most old computers. The Mister project is under active development and currently has recreations of more than 50 old computers, more than 20 games consoles, 100 or more arcade machines and a few other machines.
 
 But the only part of these projects that is open source is the HDL. The FPGA development boards are proprietary, as is the synthesis software.
 
@@ -114,15 +114,15 @@ Another 1976 kit computer was the [Cosmac Elf](https://en.wikipedia.org/wiki/COS
 
 The Mister project includes all three of these computers, but there is currently no implementation of the Commodore Pet on the Ulx3s.
 
-Also in 1976, the most successful of the second generation of games consoles was produced: the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). The Mister project has an implementation of this, and there is an [open source version](https://github.com/lawrie/atari_2600) on the TinyFPGA BX board, but not yet on the Ulx3s board.
+Also in 1977, the most successful of the second generation of games consoles was produced: the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600). The Mister project has an implementation of this, and there is an [open source version](https://github.com/lawrie/atari_2600) on the TinyFPGA BX board, and a [version](https://github.com/lawrie/ulx3s_atari_2600) on the Ulx3s board. The Ulx3s version is not completely accurate, but allows you to play many games, loaded via an OSD.
 
 In 1979, Atari launched their range of [8-bit home computers](https://en.wikipedia.org/wiki/Atari_8-bit_family). The Mister project includes an implementation of these, but not the Ulx3s.
 
-The first of the Texas Instruments home computers based on the [TMS9900](https://en.wikipedia.org/wiki/Texas_Instruments_TMS9900) chip, the TI-99/4, also appeared in 1979.
+The first of the Texas Instruments home computers based on the [TMS9900](https://en.wikipedia.org/wiki/Texas_Instruments_TMS9900) chip, the TI-99/4, also appeared in 1979, but the more successful TI-99/4A machine did not appear until 1981 - see below.
 
 That year also saw the [Mattel Intellivision](https://en.wikipedia.org/wiki/Intellivision) games console, which was a rival to the Atari 2600, and used the General Instruments CP1610 chip, which was based on the PDP-11. There is an unofficial Mister version of this.
 
-Unix was ported to other machines in the 1970s and 1980s and there is a version of the [Cortex](https://gitlab.com/pnru/cortex) project on the Ulx3s board that implements a version of V6 Unix on a TMS9900 chip. This is a recreation of the [Powertran Cortex](http://www.powertrancortex.com/) machine that appeared in Electronics Today in 1982 and 1983. The original machine ran several operating systems, but not Unix.
+Unix was ported to machines, other the PDP-11, in the 1970s and 1980s and there is a version of the [Cortex](https://gitlab.com/pnru/cortex) project on the Ulx3s board that implements a version of V6 Unix on a TMS9900 chip. This is a recreation of the [Powertran Cortex](http://www.powertrancortex.com/) machine that appeared in Electronics Today in 1982 and 1983. The original machine ran several operating systems, but not Unix.
 
 The late 1970s also saw the start of the microprocessor based arcade machines.
 
@@ -157,6 +157,8 @@ Nintendo introduced the Famicom games console in 1983, and it was renamed to the
 In 1984, Apple introduced the [Macintosh 128K](https://en.wikipedia.org/wiki/Macintosh_128K) using a [Motorola 68000](https://en.wikipedia.org/wiki/Motorola_68000) chip, followed by the 512K and the [Mac Plus](https://en.wikipedia.org/wiki/Macintosh_Plus) in the following years. There is an implementation of the [Mac Plus](https://github.com/lawrie/ulx3s_mac128) on the Ulx3s board, which has PS/2 mouse support and emulates floppy disks using an OSD.
 
 The end of 1984 saw the introduction of the [Sinclair QL](https://en.wikipedia.org/wiki/Sinclair_QL), which used a 68008 chip. The Ulx3s has a [version of the QL](https://github.com/lawrie/ulx3s_ql) emulating microdrives using an OSD.
+
+Also in 1984, the [Amstrad CPC](https://en.wikipedia.org/wiki/Amstrad_CPC) was introduced in the UK, and subsequently in other European countries. There is a [version  of this] (https://github.com/lawrie/ulx3s_amstrad_cpc) with an OSD on the Ulx3s.
 
 In 1985, more machines based on the 68000 chip came out, including the [Atari ST](https://en.wikipedia.org/wiki/Atari_ST) and the [Amiga](https://en.wikipedia.org/wiki/Amiga). The MIST project name is formed from the MI of Amiga and ST, of the Atari ST, and both Mist and Mister have implementation of those.
 
@@ -196,17 +198,17 @@ Several games for the Ulx3s boards have been written in C and run on a Risc-V So
 
 ## Missing from the Ulx3s board
 
-Significant 8-bit computers missing from the Ulx3s board and the Atari 8-bit computers, the Tandy Color Computer and the Amstrad CPC.
+Significant 8-bit computers missing from the Ulx3s board and the Atari 8-bit computers and the Tandy Color Computer.
 
 A significant missing 16-bit computer is the Atari ST.
 
 Most of the 16-bit games consoles, several portable games consoles, including the later Gameboy versions, such as the Gameboy Advance, and lots of arcade machines are still to do.
 
-The Mister project has about 5 Russian computers of which the BK0011M is probably the most significant.
+The Mister project has about 5 Russian computers of which the BK0011M is probably the most significant, and some East European computers.
 
-It has a couple of Japanese computers of which the Sharp X68000 is probably the most significant.
+It has a few Japanese computers of which the Sharp X68000 is probably the most significant.
 
-It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW,the Sam Coupe (ZX Spectrum compatible successor), and the Acorn Archimedes, which used an Arm processor. Other UK home computers included the Lynx, the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
+It also has more UK computers such as the Oric, Dragon 32/64 (Tandy Coco clone), the Amstrad PCW, the Capmuters Lynx, The Tatung Einstein, the Sam Coupe (ZX Spectrum compatible successor), and the Acorn Archimedes, which used an Arm processor. Other UK home computers included the Enterprise 64/128, the Grundy Newbrain and the Memotech MDX.
 
 ## Pre-built bitstreams
 
